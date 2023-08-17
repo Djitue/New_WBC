@@ -1,0 +1,326 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}ACCOMPLISSEMENTS{% endblock %}
+
+{% block body %}
+
+    <header>
+        <div class="menu-border">
+            <nav class="nav-bar container">
+                <div class="navigate d-flex justify-content-end align-items-center py-2 m-0 w-100">
+                    <div
+                            class="NavigationLink d-flex align-items-center col-5 container justify-content-between  px-0 ms-0">
+                        <!-- menuLinks -->
+                        <div class="menuLinks col-11">
+
+                            <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+                                <div class="container-fluid px-0">
+                                    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link active ps-0" aria-current="page" href="#" id="aboutUs">A
+                                                    NOTRE
+                                                    SUJET</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#" id="expertise">EXPERTISE</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#" id="accomplissement">ACCOMPLISSEMENTS</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+
+                        </div>
+
+                    </div>
+
+                    <!-- navigateImg -->
+                    <div class="navigateImg col-3 container">
+                        <img src="./Imgages/wbc.png" width="170" alt="">
+                    </div>
+
+                    <!-- searchBar -->
+                    <div class="searchBar me-0 pe-0 d-flex justify-content-end align-items-center col-3 container ">
+
+                        <a href="#" class="fw-bold text-light nav-link" style="letter-spacing: 2px;"
+                           id="research">RECHERCHER</a>
+
+                        <!-- <a class="fw-bold text-light nav-link" style="letter-spacing: 2px;" id="research">RECHERCHER </a> -->
+                        <div class="dropdown">
+                            <a href="" class="dropdown-toggle nav-link text-light ms-3 pe-0" id="dropdownMenuButton1"
+                               data-bs-toggle="dropdown">FR</a>
+
+                            <ul class="dropdown-menu mt-3 py-0" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" style="letter-spacing: 1.5px;" href="#">English 1</a></li>
+                                <li><a class="dropdown-item " style="letter-spacing: 1.5px;" href="#">English 2</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="linkPath container py-3">
+            <a class=" redirectLink" href="/index.html">ACCEUIL <i class="bi bi-chevron-right"></i> </a>
+            <a class="">ACCOMPLISSEMENT </a>
+        </div>
+
+        <div>
+            <h1 class="fw-bolder text-center fs-2 mt-5 text-light">
+                ACCOMPLISSEMENT
+            </h1>
+
+        </div>
+    </header>
+
+    <main>
+
+
+        <div>
+
+            <!--    Brand article-->
+            <div class="select-area container ps-3">
+                <div class="row w-100 d-flex justify-content-between py-5">
+                    <div class="col-12 col-md-5">
+                        <label for="select1">Industry</label>
+                        <select class="form-select mt-3 p-3" id="select1"
+                                aria-label="">
+                            <option selected>Infrastructure</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-5 pe-0">
+                        <label for="select2">Domaine</label>
+                        <select class="form-select mt-3 p-3" id="select2"
+                                aria-label="Default select example">
+                            <option selected>Amenagement et VRD</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!--        Aménagement et VRD-->
+            <div>
+                <div class="container VRD mt-0">
+                    <h2 class="text-uppercase fs-5">Aménagement et VRD</h2>
+                    <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci
+                        blanditiis, consequatur cum delectus doloremque ea eos exercitationem fugiat iusto laborum
+                        molestiae
+                        mollitia nisi provident quam recusandae reprehenderit voluptate voluptatum.Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Ad, amet architecto dolor ducimus fugiat fugit in itaque
+                        iure
+                        iusto laborum magnam minima, minus nesciunt nihil pariatur quo, sint temporibus ut?Accusantium
+                        amet
+                        delectus eligendi eveniet sequi suscipit veritatis! Accusantium consectetur corporis, doloremque
+                        ea
+                        error expedita explicabo fugit iste iure laboriosam minus quas quisquam quo quod reiciendis sit
+                        suscipit tenetur vel.
+                    </p>
+                </div>
+            </div>
+
+            <!--        Projets realisés-->
+            <div>
+
+                <div class="container projet mt-5">
+                    <h2 class="text-uppercase fs-5 pb-3">Projets réalisés</h2>
+                    <div class="row d-flex justify-content-between">
+
+
+                        <div class="big-projet-card position-relative">
+                            <div class="back-flou">
+                                <div class="d-flex">
+                                    <h6 class="text-light redirect-detail fw-bold">
+                                        Pont Construit à BAFIA
+                                    </h6>
+                                    <span class="detail-icon"><i class="bi bi-chevron-right"></i></span>
+                                </div>
+                            </div>
+                            <img src="./Boris/Pont-serebanda-2.jpg" width="100%" height="560px" alt="">
+                        </div>
+
+                        <div class="projet-card  d-flex flex-column mb-0 justify-content-between">
+                            <div class="position-relative small-card mb-0 pb-0 overflow-hidden">
+                                <div class="back-flou ">
+                                    <div class="d-flex">
+                                        <h6 class="text-light redirect-detail fw-bold">
+                                            Construction Imeuble
+                                        </h6>
+                                        <span class="detail-small-icon"><i class="bi bi-chevron-right"></i></span>
+                                    </div>
+                                </div>
+                                <img src="./Boris/projet-de-facilitation-des-transports-et-du-transit-en-zone-cemac-composante-centrafricaine-etudes-de-construction-de-la-plateforme-douaniere-de-beloko.png"
+                                     width="100%" height="270" alt="">
+                            </div>
+
+                            <div class="position-relative small-card overflow-hidden">
+                                <div class="back-flou ">
+                                    <div class="d-flex">
+                                        <h6 class="text-light redirect-detail fw-bold">
+                                            Construction Imeuble
+                                        </h6>
+                                        <span class="detail-small-icon"><i class="bi bi-chevron-right"></i></span>
+                                    </div>
+                                </div>
+                                <img src="./Boris/projet-de-facilitation-des-transports-et-du-transit-en-zone-cemac-composante-centrafricaine-etudes-de-construction-de-la-plateforme-douaniere-de-beloko.png"
+                                     width="100%" height="270" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-between small-row-actuality ms-0 ">
+                        <div class="projet-card small-card position-relative">
+                            <div class="back-flou">
+                                <div class="d-flex">
+                                    <h6 class="text-light redirect-detail fw-bold">
+                                        Plan d'un Camp
+                                    </h6>
+                                    <span class="detail-small-icon"><i class="bi bi-chevron-right"></i></span>
+                                </div>
+                            </div>
+                            <img src="./Boris/ANOR.jpg" width="100%" height="270" alt="">
+                        </div>
+
+                        <div class="projet-card small-card position-relative">
+                            <div class="back-flou">
+                                <div class="d-flex">
+                                    <h6 class="text-light redirect-detail fw-bold">
+                                        Lorem ipsum dolor.
+                                    </h6>
+                                    <span class="detail-small-icon"><i class="bi bi-chevron-right"></i></span>
+                                </div>
+                            </div>
+                            <img src="./Boris/mkonsultingl-jpg.jpeg" width="100%" height="270" alt="">
+                        </div>
+
+                        <div class="projet-card small-card position-relative">
+                            <div class="back-flou">
+                                <div class="d-flex">
+                                    <h6 class="text-light redirect-detail fw-bold">
+                                        Lorem ipsum dolor.
+                                    </h6>
+                                    <span class="detail-small-icon"><i class="bi bi-chevron-right"></i></span>
+                                </div>
+                            </div>
+                            <img src="./Boris/Groupe%203.jpg" width="100%" height="270" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--    banderole-->
+
+            <div>
+                <div class="pt-5 mt-2 position-relative">
+                    <img src="./Boris/Illustration/Plan%20de%20travail%20–%201.png" width="100%" height="500px" alt="">
+
+                    <div class=" banderole-text position-absolute">
+                        <h2 class="pb-3">Lorem ipsum dolor sit amet.</h2>
+                        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto consectetur
+                            consequuntur dolorum, eius maxime minus obcaecati sapiente sed. Atque culpa dolore earum
+                            explicabo itaque laboriosam, libero quasi quidem voluptatibus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--    mkonnected-->
+        <div>
+            <div class="container pt-5 pb-4">
+
+                <div class=" d-flex justify-content-between pb-3">
+                    <h5 class="col-3 fw-bold">Mkonnected une solution, E-procurement !</h5>
+                    <div class="col-3 ps-4 d-flex align-items-center mkonnected-btn "><span>NOUS RETROUVER SUR</span>
+                        <img class="ps-2" src="./Imgages/nouveau/logo-mk.png" width="90px" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!--                image-card-->
+                    <div class="col-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet autem cum cumque dicta
+                            dignissimos dolor dolorem ducimus enim fugit incidunt ipsa iure, laborum odio quidem
+                            repellendus
+                            reprehenderit sed vel.
+                        </p>
+                        <img src="./Boris/Capture%201.PNG" width="80%" alt="">
+                    </div>
+
+                    <div class="col-6">
+                        <div class="d-flex justify-content-between">
+                            <div class="illustration-card-orange">
+                                <img src="./Boris/Illustration/procurement.png" class="illustration" alt="">
+                                <h6 class="fw-bold">E Procurement</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, facilis, unde. Aliquid
+                                    sapiente tempore, vitae. Cumque, dolorem quae.</p>
+                            </div>
+                            <div class="illustration-card-white">
+                                <img src="./Boris/Illustration/gestion-de-projet.png" class="illustration" alt="">
+                                <h6 class="fw-bold">E-RH Manage</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, facilis, unde. Aliquid
+                                    sapiente tempore, vitae. Cumque, dolorem quae.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="illustration-card-white">
+                                <img src="./Boris/Illustration/opportunity.png" class="illustration" alt="">
+                                <h6 class="fw-bold">Business Opportunity</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, facilis, unde. Aliquid
+                                    sapiente tempore, vitae. Cumque, dolorem quae.</p>
+                            </div>
+                            <div class="illustration-card-orange">
+                                <img src="./Boris/Illustration/tarification.png" class="illustration" alt="">
+                                <h6 class="fw-bold">Pricing</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, facilis, unde. Aliquid
+                                    sapiente tempore, vitae. Cumque, dolorem quae.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer>
+
+        <div class="FooterPolygon position-absolute ">
+
+        </div>
+        <div class="footerContainer">
+            <h2 class="fw-bold pt-5">COLLABORER AVEC NOUS</h2>
+
+            <div class="footerbutton container d-flex justify-content-between align-items-center py-5">
+                <button>Conclure une entente directe</button>
+                <button>Faire une candidature spontanée</button>
+                <button>Decouvrir MK</button>
+                <button>
+                    Nous retrouver sur <span class="fw-bolder"><img
+                                src="./Imgages/nouveau/logo-mk.png" width="85px" alt=""></span>
+
+                </button>
+            </div>
+
+            <div class="footerContainer">
+                <div class="mx-5 footerContainerText">
+                    <p class="copywhith">© 2022 , Rue 5N.414 Bloc L, Maképé, Douala Cameroun</p>
+                    <p class="mention">Mention Légale</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+{% endblock %}

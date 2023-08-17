@@ -1,3 +1,75 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /accomp
+    controller: App\Controller\Accomplissement\Front\AccomplissementController::accom
+
+layAss:
+    path: /ls
+    controller: App\Controller\Blog\Front\IndexController::layoutAss
+
+det:
+    path: /detail
+    controller: App\Controller\Blog\Front\IndexController::detail
+
+ind:
+    path: /index
+    controller: App\Controller\Blog\Front\IndexController::indexx
+
+appSt:
+    path: /appSta
+    controller: App\Controller\Blog\Front\IndexController::appStatus
+
+appStCard:
+    path: /appStCard
+    controller: App\Controller\Blog\Front\IndexController::appStatusCard
+
+botAct:
+    path: /ba
+    controller: App\Controller\Blog\Front\IndexController::bottAct
+
+cert:
+    path: /cert
+    controller: App\Controller\Blog\Front\IndexController::certif
+
+edu:
+    path: /educ
+    controller: App\Controller\Blog\Front\IndexController::educ
+
+experience:
+    path: /exp
+    controller: App\Controller\Blog\Front\IndexController::exp
+
+expertise:
+    path: /expert
+    controller: App\Controller\Blog\Front\IndexController::expertise
+
+identity:
+    path: /id
+    controller: App\Controller\Blog\Front\IndexController::identity
+
+skill:
+    path: /skill
+    controller: App\Controller\Blog\Front\IndexController::skill
+
+stepper:
+        path: /stepper
+        controller: App\Controller\Blog\Front\IndexController::stepper
+
+terms:
+    path: /terms
+    controller: App\Controller\Blog\Front\IndexController::terms
+
+detSide:
+    path: /ds
+    controller: App\Controller\Blog\Front\IndexController::detailSide
+
+single:
+    path: /single
+    controller: App\Controller\Blog\Front\IndexController::single
+
+editor:
+    path: /ec
+    controller: App\Controller\Blog\Front\IndexController::editChoice
+
+intern:
+    path: /int
+    controller: App\Controller\Blog\Front\IndexController::intern
